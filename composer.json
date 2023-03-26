@@ -1,0 +1,24 @@
+{
+    "name": "bilbofox/nextras-orm-extension",
+    "type": "library",
+    "description": "Extension for model and DI for nextras/orm library",
+    "authors": [
+        {
+            "name": "Michal Kvita",
+            "email": "Mikvt@seznam.cz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "nextras/orm": "^3.1 || ^4"
+    },
+    "suggest": {
+        "nette/di": "For usage of DI extension"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bilbofox\\Nextras\\Orm\\": "src/"
+        }
+    }
+}
